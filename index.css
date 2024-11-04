@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-size: 45px;
+    font-weight: 150;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+.project1 h3{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif ;
+    color: aquamarine;
+}
+.project1 img{
+    position:relative;
+    align-items: center;
+    padding: 20px;
+    padding-left: 250px;
+
+}
+.project2 h3{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif ;
+    color: aquamarine;
+}
+.project2 img{
+    position:relative;
+    align-items: center;
+    padding: 20px;
+    padding-left: 250px;
+
+}
+.project3 h3{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif ;
+    color: aquamarine;
+}
+.project3 img{
+    position:relative;
+    align-items: center;
+    padding: 20px;
+    padding-left: 250px;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: bisque;
+}
+.skill h3{
+    color: blue;
+    font-weight: 100px;
+}
+.skill p{
+    font-size: 25px;
+    color: #FFD700;
+}
+.hero-content h3{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.hero-content p{
+    color: rgb(132, 92, 214);
+    font-size: larger;
+    font-weight: 300px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+@media (max-width: 700px) {
+    header {
+        font-size: 24px;
+
+    }
+    h1{
+        font-size:24px ;
+    }
+
+    
+}
